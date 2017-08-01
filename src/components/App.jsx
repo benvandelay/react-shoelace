@@ -1,11 +1,16 @@
 import React from 'react';
+import Header from './Header.jsx';
+import Body from './Body.jsx';
+import Footer from './Footer.jsx';
 
 export default class App extends React.Component {
   render() {
     return (
-    <div>
-      <h1>Hey Ben!</h1>
-      <p>Quit daydreaming and get to work!</p>
-    </div>);
+      <div className="main-wrapper">
+        <Header />
+        <Body />
+        <Footer />
+      </div>
+    );
   }
 }

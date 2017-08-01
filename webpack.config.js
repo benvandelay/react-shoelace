@@ -3,7 +3,7 @@ const autoprefixer = require('autoprefixer');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
-const extractSass = new ExtractTextPlugin("base.css");
+const extractSass = new ExtractTextPlugin("app.css");
 
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './index.template.html',

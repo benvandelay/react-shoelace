@@ -1,0 +1,21 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $grey_1;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0 0 20px 0;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+a {
+  color: $link_color;
+  text-decoration: none;
+  &:hover {
+    color: $link_hover_color;
+  }
+}
